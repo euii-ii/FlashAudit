@@ -1924,7 +1924,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
           <div className="top-bar-left">
             <div className="app-title">
               <FaDatabase />
-              <span>ChainIDE</span>
+              <span>FlashAudit</span>
               <button className="back-to-dashboard" onClick={() => setCurrentView('dashboard')}>
                 ← Dashboard
               </button>
@@ -2103,7 +2103,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
               <div className="logo-icon">
                 <FaDatabase />
               </div>
-              <span className="logo-text">ChainIDE</span>
+              <span className="logo-text">FlashAudit</span>
             </div>
           </div>
 
@@ -2152,7 +2152,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
                 <div className="vulnerability-check-icon">
                   🛡️
                 </div>
-                <span className="vulnerability-check-text">Security Audit</span>
+                <span className="vulnerability-check-text">FlashAudit</span>
                 <span className="vulnerability-check-subtitle">Check contract vulnerabilities</span>
               </div>
 
@@ -2162,7 +2162,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
                   <div className="project-preview">
                     <div className="chainide-logo">
                       <FaDatabase />
-                      <span>ChainIDE</span>
+                      <span>FlashAudit</span>
                     </div>
                   </div>
                   <div className="project-info">
@@ -2196,7 +2196,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
               <div className="logo-icon">
                 🛡️
               </div>
-              <span className="logo-text">Security Audit</span>
+              <span className="logo-text">FlashAudit</span>
             </div>
             <button className="back-to-dashboard" onClick={() => setCurrentView('dashboard')}>
               ← Back to Dashboard
@@ -2246,11 +2246,10 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
                 >
                   <option value="ethereum">Ethereum Mainnet</option>
                   <option value="polygon">Polygon</option>
-                  <option value="bsc">Binance Smart Chain</option>
-                  <option value="arbitrum">Arbitrum</option>
-                  <option value="optimism">Optimism</option>
-                  <option value="avalanche">Avalanche</option>
-                  <option value="fantom">Fantom</option>
+                    <option value="aptos">Aptos</option>
+                    <option value="sui">Sui</option>
+                  <option value="sol">Solana</option>
+                  
                 </select>
               </div>
 
@@ -2936,7 +2935,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
         <div className="top-bar-left">
           <div className="app-title">
             <FaDatabase />
-            <span>ChainIDE Pro</span>
+            <span>FlashAudit</span>
             <button className="back-to-dashboard" onClick={() => setCurrentView('dashboard')}>
               ← Dashboard
             </button>
@@ -3142,7 +3141,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
             </div>
           ) : (
             <div className="welcome-message">
-              <h2>🎉 Welcome to ChainIDE Pro!</h2>
+              <h2>🎉 Welcome to FlashAudit!</h2>
               <p>Your professional smart contract development environment is ready.</p>
               <div className="features-list">
                 <div className="feature-item">✅ Multi-network support</div>
