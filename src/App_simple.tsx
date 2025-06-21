@@ -2248,7 +2248,7 @@ contract ${cleanFileName.replace('.sol', '').replace(/[^a-zA-Z0-9]/g, '')} {
                   <option value="polygon">Polygon</option>
                     <option value="aptos">Aptos</option>
                     <option value="sui">Sui</option>
-                  <option value="sol">Solana</option>
+                  <option value="sol">Solana</option> 
                   
                 </select>
               </div>
